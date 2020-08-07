@@ -11,7 +11,7 @@ const plants = [{
 }]
 test("displays plants in cart", () => {
   const { getByText } = render(<ShoppingCart cart={plants} />)
-debugger
+  const itemExist = screen.getByText(/String of Dolphins/i)
 
 })
 
