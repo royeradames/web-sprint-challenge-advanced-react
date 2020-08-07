@@ -251,3 +251,12 @@ pre {
   color: #0e101c;
   border-bottom: 2px solid !important;
 }
+
+/* Dark mode */
+.dark-mode, .dark-mode p, .dark-mode h2, .dark-mode h1, .dark-mode form {
+  color: black;
+  background-color: white;
+}
+section h2 {
+  display: inline-block;
+}
