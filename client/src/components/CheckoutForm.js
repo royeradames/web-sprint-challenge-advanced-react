@@ -18,7 +18,7 @@ const CheckoutForm = (props) => {
   const [values, handleChanges] = useForm(initialValue)
   const handleSubmit = (e) => {
     e.preventDefault();
-    setShowSuccessMessage(true);
+    setShowSuccessMessage(true)
   };
 
   return (
